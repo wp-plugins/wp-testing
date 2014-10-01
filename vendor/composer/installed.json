@@ -1,0 +1,231 @@
+[
+    {
+        "name": "ruckusing/ruckusing-migrations",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ruckus/ruckusing-migrations.git",
+            "reference": "c75869068e031c5d66aa4a23b46dec0cc9a948cd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ruckus/ruckusing-migrations/zipball/c75869068e031c5d66aa4a23b46dec0cc9a948cd",
+            "reference": "c75869068e031c5d66aa4a23b46dec0cc9a948cd",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2014-07-22 15:35:47",
+        "bin": [
+            "ruckus.php"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Ruckusing": "lib/",
+                "Task": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Cody Caughlan",
+                "email": "codycaughlan@gmail.com",
+                "homepage": "https://github.com/ruckus/ruckusing-migrations/wiki",
+                "role": "Project lead / Developer"
+            }
+        ],
+        "description": "Framework for generating and managing database migrations",
+        "homepage": "https://github.com/ruckus/ruckusing-migrations",
+        "keywords": [
+            "database",
+            "migrations",
+            "mysql",
+            "postgres",
+            "rake",
+            "ruckusing",
+            "task"
+        ]
+    },
+    {
+        "name": "flourish/flourish",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/flourishlib/flourish-classes.git",
+            "reference": "60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/flourishlib/flourish-classes/zipball/60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101",
+            "reference": "60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.1.0"
+        },
+        "time": "2014-02-26 18:40:29",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.9.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "."
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Will Bond",
+                "email": "will@wbond.net",
+                "homepage": "http://wbond.net/",
+                "role": "Developer"
+            }
+        ],
+        "description": "A collection of classes for general web development, with a particular focus on compatibility, portability and security",
+        "homepage": "http://flourishlib.com/"
+    },
+    {
+        "name": "composer/installers",
+        "version": "v1.0.18",
+        "version_normalized": "1.0.18.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
+            "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
+            "shasum": ""
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2014-08-18 20:00:12",
+        "type": "composer-installer",
+        "extra": {
+            "class": "Composer\\Installers\\Installer",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Composer\\Installers\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "http://composer.github.com/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Hurad",
+            "MODX Evo",
+            "OXID",
+            "WolfCMS",
+            "agl",
+            "annotatecms",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "drupal",
+            "elgg",
+            "fuelphp",
+            "installer",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lithium",
+            "magento",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "moodle",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "puppet",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "xrstf/composer-php52",
+        "version": "v1.0.16",
+        "version_normalized": "1.0.16.0",
+        "source": {
+            "type": "hg",
+            "url": "https://bitbucket.org/xrstf/composer-php52",
+            "reference": "b80de08b940ea59789646fa20d841fbdd72d72f0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://bitbucket.org/xrstf/composer-php52/get/b80de08b940ea59789646fa20d841fbdd72d72f0.zip",
+            "reference": "b80de08b940ea59789646fa20d841fbdd72d72f0",
+            "shasum": ""
+        },
+        "time": "2014-01-16 00:18:36",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-default": "1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "xrstf\\Composer52": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "homepage": "http://www.xrstf.de/"
+    }
+]

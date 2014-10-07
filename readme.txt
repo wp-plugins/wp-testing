@@ -5,7 +5,7 @@ Donate link: http://ustimen.co/
 Tags: psychological, testing, test, quiz
 Requires at least: 3.2
 Tested up to: 3.9
-Stable tag: 0.1
+Stable tag: 0.1.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -49,6 +49,9 @@ Plugin activation hotfix
 * In initial release migrations dir taken from wordpress dir rather than be hardcoded.
 Locally all was ok as always, but not on your wordpresses :(
 * Upgrade notice added
+
+= 0.1.2 =
+Bump stable tag to apply previous hotfix on wordpress plugins
 
 
 == Upgrade Notice ==

@@ -6,7 +6,12 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    $vendorDir . '/phing/phing/classes',
-    $vendorDir . '/propel/propel1/runtime/lib',
-    $vendorDir . '/propel/propel1/generator/lib',
+    $vendorDir . '/phpunit/php-token-stream',
+    $vendorDir . '/phpunit/php-timer',
+    $vendorDir . '/phpunit/php-text-template',
+    $vendorDir . '/phpunit/php-file-iterator',
+    $vendorDir . '/phpunit/php-code-coverage',
+    $vendorDir . '/phpunit/phpunit-php52',
+    $vendorDir . '/symfony/yaml',
+    $vendorDir . '/phpunit/phpunit-mock-objects-php52',
 );

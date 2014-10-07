@@ -9,5 +9,6 @@ return array(
     'xrstf\\Composer52' => array($vendorDir . '/xrstf/composer-php52/lib'),
     'Task' => array($vendorDir . '/ruckusing/ruckusing-migrations/lib'),
     'Ruckusing' => array($vendorDir . '/ruckusing/ruckusing-migrations/lib'),
+    'PHPParser' => array($vendorDir . '/nikic/php-parser/lib'),
     'Composer\\Installers\\' => array($vendorDir . '/composer/installers/src'),
 );

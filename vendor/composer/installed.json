@@ -46,63 +46,6 @@
         "homepage": "http://flourishlib.com/"
     },
     {
-        "name": "ruckusing/ruckusing-migrations",
-        "version": "1.0.3",
-        "version_normalized": "1.0.3.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/ruckus/ruckusing-migrations.git",
-            "reference": "c75869068e031c5d66aa4a23b46dec0cc9a948cd"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/ruckus/ruckusing-migrations/zipball/c75869068e031c5d66aa4a23b46dec0cc9a948cd",
-            "reference": "c75869068e031c5d66aa4a23b46dec0cc9a948cd",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.2.0"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "3.7.*"
-        },
-        "time": "2014-07-22 15:35:47",
-        "bin": [
-            "ruckus.php"
-        ],
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Ruckusing": "lib/",
-                "Task": "lib/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Cody Caughlan",
-                "email": "codycaughlan@gmail.com",
-                "homepage": "https://github.com/ruckus/ruckusing-migrations/wiki",
-                "role": "Project lead / Developer"
-            }
-        ],
-        "description": "Framework for generating and managing database migrations",
-        "homepage": "https://github.com/ruckus/ruckusing-migrations",
-        "keywords": [
-            "database",
-            "migrations",
-            "mysql",
-            "postgres",
-            "rake",
-            "ruckusing",
-            "task"
-        ]
-    },
-    {
         "name": "composer/installers",
         "version": "v1.0.18",
         "version_normalized": "1.0.18.0",
@@ -229,50 +172,58 @@
         "homepage": "http://www.xrstf.de/"
     },
     {
-        "name": "nikic/php-parser",
-        "version": "v0.9.5",
-        "version_normalized": "0.9.5.0",
+        "name": "ruckusing/ruckusing-migrations",
+        "version": "dev-issue/work-in-non-writable-environment",
+        "version_normalized": "dev-issue/work-in-non-writable-environment",
         "source": {
             "type": "git",
-            "url": "https://github.com/nikic/PHP-Parser.git",
-            "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ef70767475434bdb3615b43c327e2cae17ef12eb",
-            "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb",
-            "shasum": ""
+            "url": "https://github.com/garex/ruckusing-migrations",
+            "reference": "434659893609b3e08a65cbb96c63638543762cd6"
         },
         "require": {
-            "ext-tokenizer": "*",
-            "php": ">=5.2"
+            "php": ">=5.2.0"
         },
-        "time": "2014-07-23 18:24:17",
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2014-10-08 03:03:12",
+        "bin": [
+            "ruckus.php"
+        ],
         "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "0.9-dev"
-            }
-        },
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-0": {
-                "PHPParser": "lib/"
+                "Ruckusing": "lib/",
+                "Task": "lib/"
             }
         },
-        "notification-url": "https://packagist.org/downloads/",
         "license": [
-            "BSD-3-Clause"
+            "MIT"
         ],
         "authors": [
             {
-                "name": "Nikita Popov"
+                "email": "codycaughlan@gmail.com",
+                "homepage": "https://github.com/ruckus/ruckusing-migrations/wiki",
+                "name": "Cody Caughlan",
+                "role": "Project lead / Developer"
             }
         ],
-        "description": "A PHP parser written in PHP",
+        "description": "Framework for generating and managing database migrations",
+        "homepage": "https://github.com/ruckus/ruckusing-migrations",
         "keywords": [
-            "parser",
-            "php"
-        ]
+            "database",
+            "migrations",
+            "mysql",
+            "postgres",
+            "rake",
+            "ruckusing",
+            "task"
+        ],
+        "support": {
+            "email": "codycaughlan@gmail.com",
+            "issues": "https://github.com/ruckus/ruckusing-migrations/issues",
+            "source": "https://github.com/ruckus/ruckusing-migrations"
+        }
     }
 ]

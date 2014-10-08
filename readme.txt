@@ -1,13 +1,13 @@
 === Wp-testing ===
 
-Contributors: ustimenko
-Donate link: http://ustimen.co/
-Tags: psychological, testing, test, quiz
-Requires at least: 3.2
-Tested up to: 3.9
-Stable tag: 0.1.2
-License: GPLv3
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Contributors: ustimenko  
+Donate link: http://ustimen.co/  
+Tags: psychological, testing, test, quiz  
+Requires at least: 3.2  
+Tested up to: 3.9  
+Stable tag: 0.1.3  
+License: GPLv3  
+License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
 Helps to create psychological tests.
 
@@ -53,9 +53,15 @@ Locally all was ok as always, but not on your wordpresses :(
 = 0.1.2 =
 Bump stable tag to apply previous hotfix on wordpress plugins
 
+= 0.1.3 =
+Another plugin activation problems fixed
+
+* Permissions on migrations directory
+* Working under MySQL engine named MyISAM and in mixed InnoDB/MyISAM cases
+
 
 == Upgrade Notice ==
 
-= 0.1.1 =
-Plugin activation fatal error found and fixed. Please upgrade, deactivate and active plugin.
+= 0.1.3 =
+Plugin activation fatal error found and fixed
 

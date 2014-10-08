@@ -5,7 +5,7 @@ Donate link: http://ustimen.co/
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 3.9  
-Stable tag: 0.1.3  
+Stable tag: 0.1.4  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -59,9 +59,18 @@ Another plugin activation problems fixed
 * Permissions on migrations directory
 * Working under MySQL engine named MyISAM and in mixed InnoDB/MyISAM cases
 
+= 0.1.4 =
+Test passing error fixed
+
+* Manual relashionships naming
+* Misspell in one of tables names
+
 
 == Upgrade Notice ==
 
 = 0.1.3 =
 Plugin activation fatal error found and fixed
+
+= 0.1.4 =
+Test passing fatal error found and fixed
 

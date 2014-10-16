@@ -5,7 +5,7 @@ Donate link: http://apsiholog.ru/psychological-tests/
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 3.9  
-Stable tag: 0.2.3  
+Stable tag: 0.2.4  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -39,6 +39,10 @@ As to formulas you can be sure — we have simple formula editor, that has butto
 * MySQL version **5.0** or higher.
 
 == Changelog ==
+
+= 0.2.4 =
+Correctly uninstall plugin
+
 
 = 0.2.3 =
 Fix activation on PHP below 5.4

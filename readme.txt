@@ -5,7 +5,7 @@ Donate link: http://apsiholog.ru/psychological-tests/
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 3.9  
-Stable tag: 0.2.4  
+Stable tag: 0.2.5  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -23,6 +23,8 @@ Test answers, scales, results and categories are edited through wordpress standa
 
 As to formulas you can be sure — we have simple formula editor, that has buttons for each scale (with sum of it's scores) and allowed comparisions.
 
+ps: **If something broken or not works**, pls create new topic in "Support" tab here!
+
 == Installation ==
 
 1. Download plugin archive.
@@ -39,6 +41,10 @@ As to formulas you can be sure — we have simple formula editor, that has butto
 * MySQL version **5.0** or higher.
 
 == Changelog ==
+
+= 0.2.5 =
+Fix test creation (empty scale sum broken)
+
 
 = 0.2.4 =
 Correctly uninstall plugin
@@ -109,6 +115,9 @@ Initial release
 
 
 == Upgrade Notice ==
+
+= 0.2.5 =
+Test creation from scratch now should work
 
 = 0.2.3 =
 Plugin activation on PHP below 5.4 fixed

@@ -1,51 +1,5 @@
 [
     {
-        "name": "flourish/flourish",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/flourishlib/flourish-classes.git",
-            "reference": "60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/flourishlib/flourish-classes/zipball/60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101",
-            "reference": "60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.1.0"
-        },
-        "time": "2014-02-26 18:40:29",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "0.9.x-dev"
-            }
-        },
-        "installation-source": "source",
-        "autoload": {
-            "classmap": [
-                "."
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Will Bond",
-                "email": "will@wbond.net",
-                "homepage": "http://wbond.net/",
-                "role": "Developer"
-            }
-        ],
-        "description": "A collection of classes for general web development, with a particular focus on compatibility, portability and security",
-        "homepage": "http://flourishlib.com/"
-    },
-    {
         "name": "composer/installers",
         "version": "v1.0.18",
         "version_normalized": "1.0.18.0",
@@ -172,6 +126,99 @@
         "homepage": "http://www.xrstf.de/"
     },
     {
+        "name": "nikic/php-parser",
+        "version": "v0.9.5",
+        "version_normalized": "0.9.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nikic/PHP-Parser.git",
+            "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ef70767475434bdb3615b43c327e2cae17ef12eb",
+            "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb",
+            "shasum": ""
+        },
+        "require": {
+            "ext-tokenizer": "*",
+            "php": ">=5.2"
+        },
+        "time": "2014-07-23 18:24:17",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.9-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "PHPParser": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Nikita Popov"
+            }
+        ],
+        "description": "A PHP parser written in PHP",
+        "keywords": [
+            "parser",
+            "php"
+        ]
+    },
+    {
+        "name": "flourish/flourish",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/flourishlib/flourish-classes.git",
+            "reference": "60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/flourishlib/flourish-classes/zipball/60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101",
+            "reference": "60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.1.0"
+        },
+        "time": "2014-02-26 18:40:29",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.9.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "."
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Will Bond",
+                "email": "will@wbond.net",
+                "homepage": "http://wbond.net/",
+                "role": "Developer"
+            }
+        ],
+        "description": "A collection of classes for general web development, with a particular focus on compatibility, portability and security",
+        "homepage": "http://flourishlib.com/"
+    },
+    {
         "name": "ruckusing/ruckusing-migrations",
         "version": "dev-issue/work-in-non-writable-environment",
         "version_normalized": "dev-issue/work-in-non-writable-environment",
@@ -225,52 +272,5 @@
             "issues": "https://github.com/ruckus/ruckusing-migrations/issues",
             "source": "https://github.com/ruckus/ruckusing-migrations"
         }
-    },
-    {
-        "name": "nikic/php-parser",
-        "version": "v0.9.5",
-        "version_normalized": "0.9.5.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/nikic/PHP-Parser.git",
-            "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ef70767475434bdb3615b43c327e2cae17ef12eb",
-            "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb",
-            "shasum": ""
-        },
-        "require": {
-            "ext-tokenizer": "*",
-            "php": ">=5.2"
-        },
-        "time": "2014-07-23 18:24:17",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "0.9-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "PHPParser": "lib/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Nikita Popov"
-            }
-        ],
-        "description": "A PHP parser written in PHP",
-        "keywords": [
-            "parser",
-            "php"
-        ]
     }
 ]

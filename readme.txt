@@ -5,7 +5,7 @@ Donate link: http://apsiholog.ru/psychological-tests/
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 3.9  
-Stable tag: 0.2.5  
+Stable tag: 0.3  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -22,6 +22,8 @@ Inside the box we also have scales each connected with the particular answer wit
 Test answers, scales, results and categories are edited through wordpress standard editors, similar to categories editor. You can associate them in sidebar. Whether test questions, answers and formulas are edited with standard wordpress metaboxes, behind content. You can even reorder them if you like. At the top of content editor you have button for quick access to those metaboxes: Add New Questions, Edit Questions, Edit Formulas.
 
 As to formulas you can be sure — we have simple formula editor, that has buttons for each scale (with sum of it's scores) and allowed comparisions.
+
+[![Build Status](https://travis-ci.org/garex/wp-testing.svg?branch=develop)](https://travis-ci.org/garex/wp-testing)
 
 ps: **If something broken or not works**, pls create new topic in "Support" tab here!
 
@@ -41,6 +43,33 @@ ps: **If something broken or not works**, pls create new topic in "Support" tab 
 * MySQL version **5.0** or higher.
 
 == Changelog ==
+
+= 0.3 =
+Test plugin functionality in 37 combinations of WP and PHP and fix found problems
+
+* Test under WordPress from 3.2 to latest 4.0 and PHP from 5.2 to 5.5
+* Fix plugin under non-latest WP versions
+* Add test's buttons only in plugin's test editor, not in post's editor
+* Use more styled headers at results page
+* Use dashicons in admin only on WP that knows about it (>=3.8)
+* Allow empty source in formula (with migration)
+* Fix questions adding when scales, results and answers checked
+
+Non-latest WP versions fixes (programmer's language):
+
+* Avoid deprecated function in formula
+* Add build status image into readme
+* Remove another not-existing column from wp_posts under WP 3.6
+* Check if we are at test screen for WP 3.2
+* Move styles and scripts in editor and passer into head to fix under WP 3.2
+* Fix test delete under WP 3.2 by clearing records cache
+* Remove 3rd unused param from save_post subscription
+* Avoid WP_Post in Test Editor
+* Avoid direct usage of WP_Post class
+* Avoid direct usage of WP_Screen class
+* Fix minor notice under old WP version
+* Add type=text to all inputs to fix ugly inputs under old WPs
+
 
 = 0.2.5 =
 Fix test creation (empty scale sum broken)
@@ -115,6 +144,9 @@ Initial release
 
 
 == Upgrade Notice ==
+
+= 0.3 =
+Plugin now more stable under WP 3.2 to latest and PHP from 5.2 to 5.5
 
 = 0.2.5 =
 Test creation from scratch now should work

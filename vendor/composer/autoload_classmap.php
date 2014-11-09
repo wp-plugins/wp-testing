@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'WpTesting_Doer_AbstractDoer' => $baseDir . '/src/Doer/AbstractDoer.php',
+    'WpTesting_Doer_PostBrowser' => $baseDir . '/src/Doer/PostBrowser.php',
     'WpTesting_Doer_ShortcodeProcessor' => $baseDir . '/src/Doer/ShortcodeProcessor.php',
     'WpTesting_Doer_TestEditor' => $baseDir . '/src/Doer/TestEditor.php',
     'WpTesting_Doer_TestPasser' => $baseDir . '/src/Doer/TestPasser.php',

@@ -5,7 +5,7 @@ Donate link: http://apsiholog.ru/psychological-tests/
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 3.9  
-Stable tag: 0.3  
+Stable tag: 0.4  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -43,6 +43,15 @@ ps: **If something broken or not works**, pls create new topic in "Support" tab 
 * MySQL version **5.0** or higher.
 
 == Changelog ==
+
+= 0.4 =
+Display tests in blog everywhere same as posts
+
+* Display tests on homepage, in categories and other places just like posts
+* Allow to hide individual tests from homepage by "Publish on the home page" setting at publish box
+* Fix quickedit for posts
+* Fix quickedit for tests by saving test part only in full edit mode
+* Minimize possibility of "Max post vars" warning by minizing the number of hidden inputs 
 
 = 0.3 =
 Test plugin functionality in 37 combinations of WP and PHP and fix found problems

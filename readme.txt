@@ -5,7 +5,7 @@ Donate link: http://apsiholog.ru/psychological-tests/
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 3.9  
-Stable tag: 0.4  
+Stable tag: 0.4.1  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -43,6 +43,13 @@ ps: **If something broken or not works**, pls create new topic in "Support" tab 
 * MySQL version **5.0** or higher.
 
 == Changelog ==
+
+
+= 0.4.1 =
+Fix tests preview mode
+
+* Not changing main WP query when in preview
+
 
 = 0.4 =
 Display tests in blog everywhere same as posts
@@ -153,6 +160,9 @@ Initial release
 
 
 == Upgrade Notice ==
+
+= 0.4.1 =
+Fix tests preview mode
 
 = 0.3 =
 Plugin now more stable under WP 3.2 to latest and PHP from 5.2 to 5.5

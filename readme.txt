@@ -5,7 +5,7 @@ Donate link: http://apsiholog.ru/psychological-tests/
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 3.9  
-Stable tag: 0.4.1  
+Stable tag: 0.4.2  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -43,6 +43,13 @@ ps: **If something broken or not works**, pls create new topic in "Support" tab 
 * MySQL version **5.0** or higher.
 
 == Changelog ==
+
+
+= 0.4.2 =
+Fix pages disapperance and form formatting
+
+* Fix pages disapperance
+* Fix fill form (public) formatting conflict with wpautop (for example under Monaco theme)
 
 
 = 0.4.1 =
@@ -160,6 +167,9 @@ Initial release
 
 
 == Upgrade Notice ==
+
+= 0.4.2 =
+Fix page disppearance and fill form broken formatting
 
 = 0.4.1 =
 Fix tests preview mode

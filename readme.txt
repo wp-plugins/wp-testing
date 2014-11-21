@@ -5,7 +5,7 @@ Donate link: http://apsiholog.ru/psychological-tests/
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 4.0  
-Stable tag: 0.5.1  
+Stable tag: 0.5.2  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -34,6 +34,11 @@ Wp-testing localized in six languages: English, Russian (native speaker), German
 [![Build Status](https://travis-ci.org/garex/wp-testing.svg?branch=develop)](https://travis-ci.org/garex/wp-testing)
 
 PS: **If something broken or doesn't work**, pls create new topic in ["Support" tab](https://wordpress.org/support/plugin/wp-testing)!
+
+= Thank You Board =
+
+* For Bulgarian translation thanks to Borry Semerdzhieva (borry.semerdzhieva@gmail.com)
+
 
 == Installation ==
 
@@ -70,6 +75,12 @@ PS: **If something broken or doesn't work**, pls create new topic in ["Support" 
 == Changelog ==
 
 
+= 0.5.2 =
+Fix fatal error incompatibility with wordpress-seo plugin
+
+* Adding Bulgarian translation
+
+
 = 0.5.1 =
 Add tags, improve formulas editor and docs
 
@@ -80,7 +91,7 @@ Add tags, improve formulas editor and docs
 * Add tags to test
 
 
-== 0.5 ==
+= 0.5 =
 Localization and quick fill
 
 * Localize to six languages with help of [Transifiex](https://www.transifex.com/projects/p/wp-testing/)
@@ -212,6 +223,9 @@ Initial release
 
 
 == Upgrade Notice ==
+
+= 0.5.2 =
+Fix fatal error incompatibility with wordpress-seo plugin
 
 = 0.4.2 =
 Fix page disppearance and fill form broken formatting

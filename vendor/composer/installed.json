@@ -197,7 +197,7 @@
                 "dev-master": "0.9.x-dev"
             }
         },
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "classmap": [
                 "."

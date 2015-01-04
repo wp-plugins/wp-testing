@@ -5,7 +5,7 @@ Donate link: http://apsiholog.ru/psychological-tests/
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 4.1  
-Stable tag: 0.6.2  
+Stable tag: 0.6.3  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -76,6 +76,10 @@ PS: **If something broken or doesn't work**, pls create new topic in ["Support" 
 14. A test without scores is shown like a "Test is under construction". Answers titles are those that was entered
 
 == Changelog ==
+
+
+= 0.6.3 =
+Fix featured image incompatibilities with Jetpack shortcode module
 
 
 = 0.6.2 =

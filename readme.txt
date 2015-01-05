@@ -5,7 +5,7 @@ Donate link: http://apsiholog.ru/psychological-tests/
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 4.1  
-Stable tag: 0.6.3  
+Stable tag: 0.6.4  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -41,6 +41,7 @@ PS: **If something broken or doesn't work**, pls create new topic in ["Support" 
 
 * For Bulgarian translation thanks to Borry Semerdzhieva (borry.semerdzhieva@gmail.com)
 * For German translation thanks to Sascha (info@newwaystec.com)
+* For Italian translation thanks to Ilaria Rizzo (dott.rizzo.ilaria@gmail.com)
 
 
 == Installation ==
@@ -76,6 +77,10 @@ PS: **If something broken or doesn't work**, pls create new topic in ["Support" 
 14. A test without scores is shown like a "Test is under construction". Answers titles are those that was entered
 
 == Changelog ==
+
+
+= 0.6.4 =
+Italian translation added
 
 
 = 0.6.3 =

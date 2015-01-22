@@ -81,52 +81,6 @@
         ]
     },
     {
-        "name": "flourish/flourish",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/flourishlib/flourish-classes.git",
-            "reference": "60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/flourishlib/flourish-classes/zipball/60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101",
-            "reference": "60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.1.0"
-        },
-        "time": "2014-02-26 18:40:29",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "0.9.x-dev"
-            }
-        },
-        "installation-source": "source",
-        "autoload": {
-            "classmap": [
-                "."
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Will Bond",
-                "email": "will@wbond.net",
-                "homepage": "http://wbond.net/",
-                "role": "Developer"
-            }
-        ],
-        "description": "A collection of classes for general web development, with a particular focus on compatibility, portability and security",
-        "homepage": "http://flourishlib.com/"
-    },
-    {
         "name": "ruckusing/ruckusing-migrations",
         "version": "1.0.3",
         "version_normalized": "1.0.3.0",
@@ -281,5 +235,28 @@
         },
         "type": "library",
         "installation-source": "source"
+    },
+    {
+        "name": "flourish/flourish",
+        "version": "0.9.x-dev",
+        "version_normalized": "0.9.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/garex/flourish-classes",
+            "reference": "8e57220fdcd2153d5872fb87a6f64fd933a972f1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/garex/flourish-classes/archive/master.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "."
+            ]
+        }
     }
 ]

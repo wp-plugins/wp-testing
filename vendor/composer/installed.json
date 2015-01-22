@@ -86,13 +86,19 @@
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/garex/flourish-classes",
-            "reference": "8e57220fdcd2153d5872fb87a6f64fd933a972f1"
+            "url": "https://github.com/flourishlib/flourish-classes.git",
+            "reference": "60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/flourishlib/flourish-classes/zipball/60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101",
+            "reference": "60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101",
+            "shasum": ""
         },
         "require": {
             "php": ">=5.1.0"
         },
-        "time": "2014-11-22 18:27:04",
+        "time": "2014-02-26 18:40:29",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -105,15 +111,16 @@
                 "."
             ]
         },
+        "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
         "authors": [
             {
                 "name": "Will Bond",
-                "role": "Developer",
+                "email": "will@wbond.net",
                 "homepage": "http://wbond.net/",
-                "email": "will@wbond.net"
+                "role": "Developer"
             }
         ],
         "description": "A collection of classes for general web development, with a particular focus on compatibility, portability and security",
@@ -151,17 +158,17 @@
     },
     {
         "name": "composer/installers",
-        "version": "v1.0.19",
-        "version_normalized": "1.0.19.0",
+        "version": "v1.0.20",
+        "version_normalized": "1.0.20.0",
         "source": {
             "type": "git",
             "url": "https://github.com/composer/installers.git",
-            "reference": "89d77bfbee79e16653f7162c86e602cc188471db"
+            "reference": "1bff8aa77a18f3616f468ed8000cf86a5725bac3"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/composer/installers/zipball/89d77bfbee79e16653f7162c86e602cc188471db",
-            "reference": "89d77bfbee79e16653f7162c86e602cc188471db",
+            "url": "https://api.github.com/repos/composer/installers/zipball/1bff8aa77a18f3616f468ed8000cf86a5725bac3",
+            "reference": "1bff8aa77a18f3616f468ed8000cf86a5725bac3",
             "shasum": ""
         },
         "replace": {
@@ -172,7 +179,7 @@
             "composer/composer": "1.0.*@dev",
             "phpunit/phpunit": "4.1.*"
         },
-        "time": "2014-11-29 01:29:17",
+        "time": "2015-01-11 03:51:11",
         "type": "composer-installer",
         "extra": {
             "class": "Composer\\Installers\\Installer",
@@ -205,6 +212,7 @@
             "Hurad",
             "MODX Evo",
             "OXID",
+            "SMF",
             "Thelia",
             "WolfCMS",
             "agl",
@@ -243,5 +251,35 @@
             "zend",
             "zikula"
         ]
+    },
+    {
+        "name": "pnegri/uuid-js",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pnegri/uuid-js",
+            "reference": "32d4aac39bca32726dbd8689b86515de7b09bdcc"
+        },
+        "type": "library",
+        "installation-source": "source"
+    },
+    {
+        "name": "samyk/evercookie",
+        "version": "dev-2014-10-21",
+        "version_normalized": "dev-2014-10-21",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/samyk/evercookie.git",
+            "reference": "977db236367c509ce6b10fb565ed5a75c8d729d5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/samyk/evercookie/archive/977db236367c509ce6b10fb565ed5a75c8d729d5.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "library",
+        "installation-source": "source"
     }
 ]

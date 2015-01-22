@@ -618,8 +618,8 @@ class fSchema
 		$sql .= '((' . join(') OR( ', $conditions) . '))';
 
 		$sql .= "
-				)
-				ORDER BY 4, 1, 2, 3, 11";
+				 )
+				 ORDER BY 4, 1, 2, 3, 11";
 
 		$result = $this->database->query($sql, $params);
 
@@ -993,7 +993,7 @@ class fSchema
 					$temp['column']         = $row['column'];
 					$temp['foreign_table']  = $row['foreign_table'];
 					if ($row['foreign_schema'] != 'dbo') {
-						$temp['foreign_table'] = $row['foreign_schema'] . '.' . $temp['foreign_table'];
+						 $temp['foreign_table'] = $row['foreign_schema'] . '.' . $temp['foreign_table'];
 					}
 					$temp['foreign_column'] = $row['foreign_column'];
 					$temp['on_delete']      = 'no_action';
@@ -1548,11 +1548,11 @@ class fSchema
 		$sql .= '((' . join(') OR( ', $conditions) . '))';
 
 		$sql .= " ORDER BY
-						AC.OWNER ASC,
-						AC.TABLE_NAME ASC,
-						AC.CONSTRAINT_TYPE ASC,
-						AC.CONSTRAINT_NAME ASC,
-						ACC.POSITION ASC";
+						 AC.OWNER ASC,
+						 AC.TABLE_NAME ASC,
+						 AC.CONSTRAINT_TYPE ASC,
+						 AC.CONSTRAINT_NAME ASC,
+						 ACC.POSITION ASC";
 
 		$result = $this->database->query($sql, $params);
 
@@ -1681,10 +1681,10 @@ class fSchema
 						pg_namespace ON pg_class.relnamespace = pg_namespace.oid LEFT JOIN
 						pg_type ON pg_type.oid = pg_attribute.atttypid LEFT JOIN
 						pg_constraint ON pg_constraint.conrelid = pg_class.oid AND
-										pg_attribute.attnum = ANY (pg_constraint.conkey) AND
-										pg_constraint.contype = 'c' LEFT JOIN
+										 pg_attribute.attnum = ANY (pg_constraint.conkey) AND
+										 pg_constraint.contype = 'c' LEFT JOIN
 						pg_attrdef ON pg_class.oid = pg_attrdef.adrelid AND
-									pg_attribute.attnum = pg_attrdef.adnum
+									  pg_attribute.attnum = pg_attrdef.adnum
 					WHERE
 						NOT pg_attribute.attisdropped AND
 						LOWER(pg_class.relname) = %s AND
@@ -2417,6 +2417,7 @@ class fSchema
 	 */
 	public function getColumnInfo($table, $column=NULL, $element=NULL)
 	{
+		$table = strtolower($table);
 		if ($column !== NULL) {
 			$column = strtolower($column);
 		}
@@ -2789,12 +2790,12 @@ class fSchema
 
 			case 'postgresql':
 				$sql = "SELECT
-							schemaname AS \"schema\",
-							tablename as \"table\"
+							 schemaname AS \"schema\",
+							 tablename as \"table\"
 						FROM
-							pg_tables
+							 pg_tables
 						WHERE
-							tablename !~ '^(pg|sql)_'
+							 tablename !~ '^(pg|sql)_'
 						ORDER BY
 							LOWER(tablename)";
 				break;
@@ -2841,7 +2842,7 @@ class fSchema
 		} else {
 			foreach ($result as $row) {
 				$keys = array_keys($row);
-				$this->tables[] = $row[$keys[0]];
+				$this->tables[] = strtolower($row[$keys[0]]);
 			}
 		}
 
@@ -3075,7 +3076,7 @@ class fSchema
 	 */
 	public function setColumnInfoOverride($column_info, $table, $column=NULL)
 	{
-		$table = strtolower($table);
+		$table = strotlower($table);
 		if ($column !== NULL) {
 			$column = strtolower($column);
 		}

@@ -77,18 +77,82 @@
         }
     },
     {
-        "name": "composer/installers",
-        "version": "v1.0.20",
-        "version_normalized": "1.0.20.0",
+        "name": "pnegri/uuid-js",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/composer/installers.git",
-            "reference": "1bff8aa77a18f3616f468ed8000cf86a5725bac3"
+            "url": "https://github.com/pnegri/uuid-js",
+            "reference": "32d4aac39bca32726dbd8689b86515de7b09bdcc"
+        },
+        "type": "library",
+        "installation-source": "source"
+    },
+    {
+        "name": "samyk/evercookie",
+        "version": "dev-2014-10-21",
+        "version_normalized": "dev-2014-10-21",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/samyk/evercookie.git",
+            "reference": "977db236367c509ce6b10fb565ed5a75c8d729d5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/composer/installers/zipball/1bff8aa77a18f3616f468ed8000cf86a5725bac3",
-            "reference": "1bff8aa77a18f3616f468ed8000cf86a5725bac3",
+            "url": "https://github.com/samyk/evercookie/archive/977db236367c509ce6b10fb565ed5a75c8d729d5.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "library",
+        "installation-source": "source"
+    },
+    {
+        "name": "xrstf/composer-php52",
+        "version": "v1.0.17",
+        "version_normalized": "1.0.17.0",
+        "source": {
+            "type": "hg",
+            "url": "https://bitbucket.org/xrstf/composer-php52",
+            "reference": "70b853668d6c3f97b63dafcfaeebb622bf08fd30"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://bitbucket.org/xrstf/composer-php52/get/70b853668d6c3f97b63dafcfaeebb622bf08fd30.zip",
+            "reference": "70b853668d6c3f97b63dafcfaeebb622bf08fd30",
+            "shasum": ""
+        },
+        "time": "2015-02-01 14:28:15",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-default": "1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "xrstf\\Composer52": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "homepage": "http://www.xrstf.de/"
+    },
+    {
+        "name": "composer/installers",
+        "version": "v1.0.21",
+        "version_normalized": "1.0.21.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+            "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
             "shasum": ""
         },
         "replace": {
@@ -99,7 +163,7 @@
             "composer/composer": "1.0.*@dev",
             "phpunit/phpunit": "4.1.*"
         },
-        "time": "2015-01-11 03:51:11",
+        "time": "2015-02-18 17:17:01",
         "type": "composer-installer",
         "extra": {
             "class": "Composer\\Installers\\Installer",
@@ -136,6 +200,7 @@
             "Thelia",
             "WolfCMS",
             "agl",
+            "aimeos",
             "annotatecms",
             "bitrix",
             "cakephp",
@@ -173,43 +238,13 @@
         ]
     },
     {
-        "name": "pnegri/uuid-js",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/pnegri/uuid-js",
-            "reference": "32d4aac39bca32726dbd8689b86515de7b09bdcc"
-        },
-        "type": "library",
-        "installation-source": "source"
-    },
-    {
-        "name": "samyk/evercookie",
-        "version": "dev-2014-10-21",
-        "version_normalized": "dev-2014-10-21",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/samyk/evercookie.git",
-            "reference": "977db236367c509ce6b10fb565ed5a75c8d729d5"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://github.com/samyk/evercookie/archive/977db236367c509ce6b10fb565ed5a75c8d729d5.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "type": "library",
-        "installation-source": "source"
-    },
-    {
         "name": "flourish/flourish",
         "version": "0.9.x-dev",
         "version_normalized": "0.9.9999999.9999999-dev",
         "source": {
             "type": "git",
             "url": "https://github.com/garex/flourish-classes",
-            "reference": "8e57220fdcd2153d5872fb87a6f64fd933a972f1"
+            "reference": "3ef6840d6259f9cf990f70d070de2ae5bed4a652"
         },
         "dist": {
             "type": "zip",
@@ -224,39 +259,5 @@
                 "."
             ]
         }
-    },
-    {
-        "name": "xrstf/composer-php52",
-        "version": "v1.0.17",
-        "version_normalized": "1.0.17.0",
-        "source": {
-            "type": "hg",
-            "url": "https://bitbucket.org/xrstf/composer-php52",
-            "reference": "70b853668d6c3f97b63dafcfaeebb622bf08fd30"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://bitbucket.org/xrstf/composer-php52/get/70b853668d6c3f97b63dafcfaeebb622bf08fd30.zip",
-            "reference": "70b853668d6c3f97b63dafcfaeebb622bf08fd30",
-            "shasum": ""
-        },
-        "time": "2015-02-01 14:28:15",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-default": "1.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "xrstf\\Composer52": "lib/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "homepage": "http://www.xrstf.de/"
     }
 ]

@@ -760,7 +760,7 @@ class fORMDatabase
 				$table = $short_table;
 			}
 		}
-		return strtolower($table);
+		return $table;
 	}
 
 

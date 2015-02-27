@@ -6,7 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'JsonSerializable' => $baseDir . '/src/Compatibility/JsonSerializable.php',
     'WpTesting_Doer_AbstractDoer' => $baseDir . '/src/Doer/AbstractDoer.php',
+    'WpTesting_Doer_IRenderer' => $baseDir . '/src/Doer/IRenderer.php',
+    'WpTesting_Doer_PassingBrowser' => $baseDir . '/src/Doer/PassingBrowser.php',
     'WpTesting_Doer_PostBrowser' => $baseDir . '/src/Doer/PostBrowser.php',
     'WpTesting_Doer_ShortcodeProcessor' => $baseDir . '/src/Doer/ShortcodeProcessor.php',
     'WpTesting_Doer_TestEditor' => $baseDir . '/src/Doer/TestEditor.php',
@@ -27,7 +30,9 @@ return array(
     'WpTesting_Model_Taxonomy' => $baseDir . '/src/Model/Taxonomy.php',
     'WpTesting_Model_Test' => $baseDir . '/src/Model/Test.php',
     'WpTesting_Query_AbstractQuery' => $baseDir . '/src/Query/AbstractQuery.php',
+    'WpTesting_Query_Passing' => $baseDir . '/src/Query/Passing.php',
     'WpTesting_Query_Test' => $baseDir . '/src/Query/Test.php',
+    'WpTesting_Widget_PassingTable' => $baseDir . '/src/Widget/PassingTable.php',
     'WpTesting_WordPressFacade' => $baseDir . '/src/WordPressFacade.php',
     'fActiveRecord' => $vendorDir . '/flourish/flourish/fActiveRecord.php',
     'fAuthorization' => $vendorDir . '/flourish/flourish/fAuthorization.php',

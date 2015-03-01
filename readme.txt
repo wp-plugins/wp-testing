@@ -5,7 +5,7 @@ Donate link: http://apsiholog.ru/psychological-tests/
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 4.1.1  
-Stable tag: 0.9.1  
+Stable tag: 0.9.2  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -88,6 +88,11 @@ PS: **If something broken or doesn't work**, pls create new topic in ["Support" 
 18. Multiple answers per question are also possible
 
 == Changelog ==
+
+
+= 0.9.2 =
+
+Fix scale`s max calc when in question we have few answers with scores
 
 
 = 0.9.1 =

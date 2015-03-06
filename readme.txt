@@ -5,7 +5,7 @@ Donate link: http://apsiholog.ru/psychological-tests/
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 4.1.1  
-Stable tag: 0.9.2  
+Stable tag: 0.9.3  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -84,11 +84,19 @@ PS: **If something broken or doesn't work**, pls create new topic in ["Support" 
 14. Scale description with "more..." text closed
 15. Scale description with "more..." text opened (after clicking on "more" link)
 16. A test without scores is shown like a "Test is under construction". Answers titles are those that was entered
-17. Test results with scales chart when scales are hidden. Hovered scale shows it`s value and title in dynamic tag
-18. Multiple answers per question are also possible
+17. Test results with scales chart. Hovered scale shows it`s value and title in dynamic tag
+18. In case of too many scales their labels are rotated. Also when scales has different length (possible max total) they are shown as percents
+19. Multiple answers per question are also possible
 
 == Changelog ==
 
+
+= 0.9.3 =
+
+Improve scales' chart
+
+* Use ratio (percents) when scales lengths differs
+* Rotate text labels to 45 degrees when we have too many scales
 
 = 0.9.2 =
 
@@ -184,7 +192,7 @@ Individual answers
 * Update locales for main languages
 * Migrate existing tests on new questions-answers model
 * Allow to individualize answers: custom global answer title for question
-* Use "Test Categories" in admin menu to differ with post categories 
+* Use "Test Categories" in admin menu to differ with post categories
 
 
 = 0.5.4 =
@@ -243,7 +251,7 @@ Display tests in blog everywhere same as posts
 * Allow to hide individual tests from homepage by "Publish on the home page" setting at publish box
 * Fix quickedit for posts
 * Fix quickedit for tests by saving test part only in full edit mode
-* Minimize possibility of "Max post vars" warning by minizing the number of hidden inputs 
+* Minimize possibility of "Max post vars" warning by minizing the number of hidden inputs
 
 = 0.3 =
 Test plugin functionality in 37 combinations of WP and PHP and fix found problems

@@ -1,1 +1,0 @@
-SELECT * FROM wp_testing_4_1.wp_usermeta;

@@ -1,82 +1,5 @@
 [
     {
-        "name": "nikic/php-parser",
-        "version": "v0.9.5",
-        "version_normalized": "0.9.5.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/nikic/PHP-Parser.git",
-            "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ef70767475434bdb3615b43c327e2cae17ef12eb",
-            "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb",
-            "shasum": ""
-        },
-        "require": {
-            "ext-tokenizer": "*",
-            "php": ">=5.2"
-        },
-        "time": "2014-07-23 18:24:17",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "0.9-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "PHPParser": "lib/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Nikita Popov"
-            }
-        ],
-        "description": "A PHP parser written in PHP",
-        "keywords": [
-            "parser",
-            "php"
-        ]
-    },
-    {
-        "name": "ruckusing/ruckusing-migrations",
-        "version": "1.0.3",
-        "version_normalized": "1.0.3.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/garex/ruckusing-migrations",
-            "reference": "issue/work-in-non-writable-environment"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://github.com/garex/ruckusing-migrations/archive/issue/work-in-non-writable-environment.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "php": ">=5.2.0"
-        },
-        "bin": [
-            "ruckus.php"
-        ],
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Ruckusing": "lib/",
-                "Task": "lib/"
-            }
-        }
-    },
-    {
         "name": "composer/installers",
         "version": "v1.0.21",
         "version_normalized": "1.0.21.0",
@@ -174,38 +97,51 @@
         ]
     },
     {
-        "name": "xrstf/composer-php52",
-        "version": "v1.0.17",
-        "version_normalized": "1.0.17.0",
+        "name": "nikic/php-parser",
+        "version": "v0.9.5",
+        "version_normalized": "0.9.5.0",
         "source": {
-            "type": "hg",
-            "url": "https://bitbucket.org/xrstf/composer-php52",
-            "reference": "70b853668d6c3f97b63dafcfaeebb622bf08fd30"
+            "type": "git",
+            "url": "https://github.com/nikic/PHP-Parser.git",
+            "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb"
         },
         "dist": {
             "type": "zip",
-            "url": "https://bitbucket.org/xrstf/composer-php52/get/70b853668d6c3f97b63dafcfaeebb622bf08fd30.zip",
-            "reference": "70b853668d6c3f97b63dafcfaeebb622bf08fd30",
+            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ef70767475434bdb3615b43c327e2cae17ef12eb",
+            "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb",
             "shasum": ""
         },
-        "time": "2015-02-01 14:28:15",
+        "require": {
+            "ext-tokenizer": "*",
+            "php": ">=5.2"
+        },
+        "time": "2014-07-23 18:24:17",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-default": "1.x-dev"
+                "dev-master": "0.9-dev"
             }
         },
         "installation-source": "dist",
         "autoload": {
             "psr-0": {
-                "xrstf\\Composer52": "lib/"
+                "PHPParser": "lib/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
-            "MIT"
+            "BSD-3-Clause"
         ],
-        "homepage": "http://www.xrstf.de/"
+        "authors": [
+            {
+                "name": "Nikita Popov"
+            }
+        ],
+        "description": "A PHP parser written in PHP",
+        "keywords": [
+            "parser",
+            "php"
+        ]
     },
     {
         "name": "samyk/evercookie",
@@ -244,22 +180,86 @@
         "installation-source": "source"
     },
     {
+        "name": "xrstf/composer-php52",
+        "version": "v1.0.17",
+        "version_normalized": "1.0.17.0",
+        "source": {
+            "type": "hg",
+            "url": "https://bitbucket.org/xrstf/composer-php52",
+            "reference": "70b853668d6c3f97b63dafcfaeebb622bf08fd30"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://bitbucket.org/xrstf/composer-php52/get/70b853668d6c3f97b63dafcfaeebb622bf08fd30.zip",
+            "reference": "70b853668d6c3f97b63dafcfaeebb622bf08fd30",
+            "shasum": ""
+        },
+        "time": "2015-02-01 14:28:15",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-default": "1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "xrstf\\Composer52": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "homepage": "http://www.xrstf.de/"
+    },
+    {
+        "name": "ruckusing/ruckusing-migrations",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/garex/ruckusing-migrations",
+            "reference": "issue/work-in-non-writable-environment"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/garex/ruckusing-migrations/archive/issue/work-in-non-writable-environment.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "bin": [
+            "ruckus.php"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Ruckusing": "lib/",
+                "Task": "lib/"
+            }
+        }
+    },
+    {
         "name": "flourish/flourish",
         "version": "0.9.x-dev",
         "version_normalized": "0.9.9999999.9999999-dev",
         "source": {
             "type": "git",
             "url": "https://github.com/garex/flourish-classes",
-            "reference": "3ef6840d6259f9cf990f70d070de2ae5bed4a652"
+            "reference": "4b2fa7e450e6d19ed19eb07c3983f0035debbe1e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://github.com/garex/flourish-classes/archive/3ef6840d6259f9cf990f70d070de2ae5bed4a652.zip",
+            "url": "https://github.com/garex/flourish-classes/archive/4b2fa7e450e6d19ed19eb07c3983f0035debbe1e.zip",
             "reference": null,
             "shasum": null
         },
         "type": "library",
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "classmap": [
                 "."

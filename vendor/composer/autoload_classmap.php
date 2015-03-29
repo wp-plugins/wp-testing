@@ -7,6 +7,11 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'JsonSerializable' => $baseDir . '/src/Compatibility/JsonSerializable.php',
+    'WpTesting_Addon_IAddon' => $baseDir . '/src/Addon/IAddon.php',
+    'WpTesting_Addon_IFacade' => $baseDir . '/src/Addon/IFacade.php',
+    'WpTesting_Addon_IWordPressFacade' => $baseDir . '/src/Addon/IWordPressFacade.php',
+    'WpTesting_Component_IRootable' => $baseDir . '/src/Component/IRootable.php',
+    'WpTesting_Component_Loader' => $baseDir . '/src/Component/Loader.php',
     'WpTesting_Doer_AbstractDoer' => $baseDir . '/src/Doer/AbstractDoer.php',
     'WpTesting_Doer_IRenderer' => $baseDir . '/src/Doer/IRenderer.php',
     'WpTesting_Doer_PassingBrowser' => $baseDir . '/src/Doer/PassingBrowser.php',
@@ -30,7 +35,10 @@ return array(
     'WpTesting_Model_Taxonomy' => $baseDir . '/src/Model/Taxonomy.php',
     'WpTesting_Model_Test' => $baseDir . '/src/Model/Test.php',
     'WpTesting_Query_AbstractQuery' => $baseDir . '/src/Query/AbstractQuery.php',
+    'WpTesting_Query_AbstractTerm' => $baseDir . '/src/Query/AbstractTerm.php',
+    'WpTesting_Query_GlobalAnswer' => $baseDir . '/src/Query/GlobalAnswer.php',
     'WpTesting_Query_Passing' => $baseDir . '/src/Query/Passing.php',
+    'WpTesting_Query_Scale' => $baseDir . '/src/Query/Scale.php',
     'WpTesting_Query_Test' => $baseDir . '/src/Query/Test.php',
     'WpTesting_Widget_PassingTable' => $baseDir . '/src/Widget/PassingTable.php',
     'WpTesting_WordPressFacade' => $baseDir . '/src/WordPressFacade.php',

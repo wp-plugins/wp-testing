@@ -2922,7 +2922,7 @@ abstract class fActiveRecord
 
 		} catch (fException $e) {
 
-			if (!$inside_db_transaction) {
+			if ($db->isInsideTransaction() === true) {
 				$db->translatedQuery('ROLLBACK');
 			}
 

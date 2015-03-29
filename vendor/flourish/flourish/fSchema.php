@@ -1205,7 +1205,7 @@ class fSchema
 				$info['comment'] = str_replace("''", "'", substr($match[8], 10, -1));
 			}
 
-			$column_info[strtolower($match[1])] = $info;
+			$column_info[$match[1]] = $info;
 		}
 
 		return $column_info;
@@ -1235,22 +1235,22 @@ class fSchema
 			// Primary keys
 			preg_match_all('/PRIMARY KEY\s+\("(.*?)"\),?\n/U', $row['Create Table'], $matches, PREG_SET_ORDER);
 			if (!empty($matches)) {
-				$keys[$table]['primary'] = explode('","', strtolower($matches[0][1]));
+				$keys[$table]['primary'] = explode('","', $matches[0][1]);
 			}
 
 			// Unique keys
 			preg_match_all('/UNIQUE KEY\s+"([^"]+)"\s+\("(.*?)"\),?\n/U', $row['Create Table'], $matches, PREG_SET_ORDER);
 			foreach ($matches as $match) {
-				$keys[$table]['unique'][] = explode('","', strtolower($match[2]));
+				$keys[$table]['unique'][] = explode('","', $match[2]);
 			}
 
 			// Foreign keys
 			preg_match_all('#FOREIGN KEY \("([^"]+)"\) REFERENCES "([^"]+)" \("([^"]+)"\)(?:\sON\sDELETE\s(SET\sNULL|SET\sDEFAULT|CASCADE|NO\sACTION|RESTRICT))?(?:\sON\sUPDATE\s(SET\sNULL|SET\sDEFAULT|CASCADE|NO\sACTION|RESTRICT))?#', $row['Create Table'], $matches, PREG_SET_ORDER);
 			foreach ($matches as $match) {
 				$temp = array(
-					'column'         => strtolower($match[1]),
-					'foreign_table'  => strtolower($match[2]),
-					'foreign_column' => strtolower($match[3]),
+					'column'         => $match[1],
+					'foreign_table'  => $match[2],
+					'foreign_column' => $match[3],
 					'on_delete'      => 'no_action',
 					'on_update'      => 'no_action'
 				);
@@ -2418,7 +2418,7 @@ class fSchema
 	public function getColumnInfo($table, $column=NULL, $element=NULL)
 	{
 		if ($column !== NULL) {
-			$column = strtolower($column);
+			$column = $column;
 		}
 
 		// Return the saved column info if possible

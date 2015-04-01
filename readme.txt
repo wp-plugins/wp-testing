@@ -5,7 +5,7 @@ Donate link: http://apsiholog.ru/psychological-tests/
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 4.1.1  
-Stable tag: 0.10  
+Stable tag: 0.10.1  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -92,6 +92,19 @@ PS: **If something broken or doesn't work**, pls create new topic in ["Support" 
 19. Multiple answers per question are also possible
 
 == Changelog ==
+
+
+= 0.10.1 =
+
+Fix incompatibility with themes/plugins that changes post form attributes
+
+* Use more robust way to pack metadata in edit form fields
+* All these dances are to minify fields numbers
+
+Upgrade notice:
+
+* You shouldn't upgrade to this version if all is working
+* Only if it was working, then you install something (another plugin/theme) and all was broken 
 
 
 = 0.10 =

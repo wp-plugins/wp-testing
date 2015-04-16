@@ -801,8 +801,8 @@ class fDatabase
 		// Make MySQL act more strict and use UTF-8
 		if ($this->type == 'mysql') {
 			$this->execute("SET SQL_MODE = 'REAL_AS_FLOAT,PIPES_AS_CONCAT,ANSI_QUOTES,IGNORE_SPACE'");
-			$this->execute("SET NAMES 'utf8'");
 			$this->execute("SET CHARACTER SET utf8");
+			$this->execute("SET NAMES 'utf8'");
 		}
 
 		// Make SQLite behave like other DBs for assoc arrays
@@ -3623,3 +3623,4 @@ class fDatabase
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+

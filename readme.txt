@@ -5,7 +5,7 @@ Donate link: http://apsiholog.ru/psychological-tests/
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 4.1.1  
-Stable tag: 0.11.1  
+Stable tag: 0.11.2  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -95,6 +95,12 @@ PS: **If something broken or doesn't work**, pls create new topic in ["Support" 
 22. On last page counter not shown and button changes back to "Get Test Results"
 
 == Changelog ==
+
+
+= 0.11.2 =
+Fix many answers on many steps
+
+* Was stuck on 2nd step
 
 
 = 0.11.1 =

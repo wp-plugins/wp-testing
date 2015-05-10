@@ -2833,14 +2833,21 @@ abstract class fActiveRecord
 			if (!$this->exists()) {
 				$params = $this->constructInsertParams();
 			} else {
-				$params = $this->constructUpdateParams();
+				$params = array();
+				foreach (array_keys($this->values) as $column) {
+					if ($this->changed($this->values, $this->old_values, $column)) {
+						$params = $this->constructUpdateParams();
+						break;
+					}
+				}
 			}
-			$result = call_user_func_array($db->translatedQuery, $params);
-
-
-			// If there is an auto-incrementing primary key, grab the value from the database
-			if ($new_autoincrementing_record) {
-				$this->set($pk_column, $result->getAutoIncrementedValue());
+			if (!empty($params)) {
+				$result = call_user_func_array($db->translatedQuery, $params);
+	
+				// If there is an auto-incrementing primary key, grab the value from the database
+				if ($new_autoincrementing_record) {
+					$this->set($pk_column, $result->getAutoIncrementedValue());
+				}
 			}
 
 

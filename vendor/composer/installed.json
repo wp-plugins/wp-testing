@@ -250,11 +250,11 @@
         "source": {
             "type": "git",
             "url": "https://github.com/garex/flourish-classes",
-            "reference": "bc0c21358835914ee0ca172383aff0e3c7125cac"
+            "reference": "85ef4360f05787f3455ec2d3293194b58f10d132"
         },
         "dist": {
             "type": "zip",
-            "url": "https://github.com/garex/flourish-classes/archive/bc0c21358835914ee0ca172383aff0e3c7125cac.zip",
+            "url": "https://github.com/garex/flourish-classes/archive/85ef4360f05787f3455ec2d3293194b58f10d132.zip",
             "reference": null,
             "shasum": null
         },

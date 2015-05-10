@@ -147,6 +147,13 @@ class fORMValidation
 	 */
 	static private $valid_values_rules = array();
 
+	/**
+	 * Is check foreign key constraints? By default we check them,
+	 * but for some databases it could be better checked on the DB level. 
+	 * 
+	 * @var boolean
+	 */
+	static private $is_check_foreign_key_constraints = true;
 
 	/**
 	 * Adds a conditional rule
@@ -633,6 +640,10 @@ class fORMValidation
 		}
 	}
 
+	static public function disableForeignKeyConstraintsCheck()
+	{
+		self::$is_check_foreign_key_constraints = false;
+	}
 
 	/**
 	 * Validates values against foreign key constraints
@@ -645,7 +656,7 @@ class fORMValidation
 	 */
 	static private function checkForeignKeyConstraints($schema, $class, $column, &$values)
 	{
-		if ($values[$column] === NULL) {
+		if ($values[$column] === NULL || self::$is_check_foreign_key_constraints == false) {
 			return;
 		}
 
@@ -1379,6 +1390,7 @@ class fORMValidation
 		self::$required_rules            = array();
 		self::$string_replacements       = array();
 		self::$valid_values_rules        = array();
+		self::$is_check_foreign_key_constraints = true;
 	}
 
 

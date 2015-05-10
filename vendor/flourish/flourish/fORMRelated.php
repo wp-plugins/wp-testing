@@ -1620,12 +1620,35 @@ class fORMRelated
 			$relationship['related_column'] . '=' => $column_value
 		);
 
+		$new_primary_keys = $record_set->getPrimaryKeys();
+		$related_keys = $schema->getKeys($related_table, 'primary');
+		$new_exclude_primary_keys = array();
+		if (count($related_keys) == 1) {
+			$related_key = reset($related_keys);
+			$new_exclude_primary_keys = array_filter($new_primary_keys);
+		} elseif (count($related_keys) == 2 && in_array($relationship['related_column'], $related_keys)) {
+			$related_keys_diff = array_diff($related_keys, array($relationship['related_column']));
+			$related_key       = reset($related_keys_diff);
+			foreach ($new_primary_keys as $keys) {
+				if (!empty($keys[$related_key])) {
+					$new_exclude_primary_keys[] = $keys[$related_key];
+				}
+			}
+		}
+		$is_optimized = (count($new_exclude_primary_keys));
+		if ($is_optimized) {
+			$where_conditions[$related_key . '!'] = $new_exclude_primary_keys;
+		}
+
 		$existing_records = fRecordSet::build($related_class, $where_conditions);
 
 		$existing_primary_keys  = $existing_records->getPrimaryKeys();
-		$new_primary_keys       = $record_set->getPrimaryKeys();
 
-		$primary_keys_to_delete = self::multidimensionArrayDiff($existing_primary_keys, $new_primary_keys);
+		if ($is_optimized) {
+			$primary_keys_to_delete = $existing_primary_keys;
+		} else {
+			$primary_keys_to_delete = self::multidimensionArrayDiff($existing_primary_keys, $new_primary_keys);
+		}
 
 		foreach ($primary_keys_to_delete as $primary_key_to_delete) {
 			$object_to_delete = new $related_class($primary_key_to_delete);

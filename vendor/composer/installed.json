@@ -162,24 +162,6 @@
         "installation-source": "source"
     },
     {
-        "name": "pnegri/uuid-js",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/pnegri/uuid-js",
-            "reference": "32d4aac39bca32726dbd8689b86515de7b09bdcc"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://github.com/pnegri/uuid-js/archive/32d4aac39bca32726dbd8689b86515de7b09bdcc.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "type": "library",
-        "installation-source": "source"
-    },
-    {
         "name": "xrstf/composer-php52",
         "version": "v1.0.17",
         "version_normalized": "1.0.17.0",
@@ -265,5 +247,23 @@
                 "."
             ]
         }
+    },
+    {
+        "name": "pnegri/uuid-js",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pnegri/uuid-js",
+            "reference": "32d4aac39bca32726dbd8689b86515de7b09bdcc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/pnegri/uuid-js/archive/32d4aac39bca32726dbd8689b86515de7b09bdcc.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "library",
+        "installation-source": "dist"
     }
 ]

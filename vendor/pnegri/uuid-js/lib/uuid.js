@@ -230,7 +230,7 @@ UUIDjs.fromBinary = function(binary) {
 
 // Aliases to support legacy code. Do not use these when writing new code as
 // they may be removed in future versions!
-UUIDjs.new = function() {
+UUIDjs['new'] = function() {
   return this.create(4);
 };
 UUIDjs.newTS = function() {

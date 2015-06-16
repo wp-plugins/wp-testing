@@ -5,7 +5,7 @@ Donate link: https://goo.gl/igulor
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 4.2.2  
-Stable tag: 0.13.1  
+Stable tag: 0.13.2  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -104,6 +104,14 @@ PS: **If something broken or doesn't work**, pls create new topic in ["Support" 
 == Changelog ==
 
 
+= 0.13.2 =
+
+Update database after plugin update
+
+* Now you don't have to deactivate and activate plugin after every update!
+* Tested on standalone mock-plugin
+
+
 = 0.13.1 =
 
 Fix result permalinks with front prefixes
@@ -152,6 +160,7 @@ Speed-up tests saving, improve respondents results' and add new locale
 
 
 = 0.11.4 =
+
 Fix content comparing in duplicate protection
 
 You should upgrade to this version only if:
@@ -162,6 +171,7 @@ You should upgrade to this version only if:
 
 
 = 0.11.3 =
+
 Fix strict settings catchable error in steps
 
 Upgrade notice:
@@ -170,12 +180,14 @@ Upgrade notice:
 
 
 = 0.11.2 =
+
 Fix many answers on many steps
 
 * Was stuck on 2nd step
 
 
 = 0.11.1 =
+
 Improve steps generating (for sections addon)
 
 Upgrade notice:
@@ -184,6 +196,7 @@ Upgrade notice:
 
 
 = 0.11 =
+
 Add one-per-page questions and fix annoing database collation issue
 
 * Add option when respondent could read only one question at a time on page, to avoid to see through pattern
@@ -288,6 +301,7 @@ Fix external library and update translations
 
 
 = 0.8 =
+
 Add test page settings
 
 * Allow to reset answers and customize button caption
@@ -302,10 +316,12 @@ Internal improvements:
 
 
 = 0.7.1 =
+
 Fix bad external library version
 
 
 = 0.7 =
+
 Give each passing own URL to allow sharing and add two result page options
 
 * Save passings in DB and redirect to them by URLs (with client's ip and device uuid)
@@ -316,22 +332,27 @@ Give each passing own URL to allow sharing and add two result page options
 * Update translations
 
 = 0.6.4 =
+
 Italian translation added
 
 
 = 0.6.3 =
+
 Fix featured image incompatibilities with Jetpack shortcode module
 
 
 = 0.6.2 =
+
 Inherit post's CSS classes onto test
 
 
 = 0.6.1 =
+
 Fix apostrophe problem (slashes) and update tests to be compatible to WP 4.1
 
 
 = 0.6 =
+
 Individual answers
 
 * Add individual answers feature
@@ -342,22 +363,26 @@ Individual answers
 
 
 = 0.5.4 =
+
 Update German translation
 
 
 = 0.5.3 =
+
 Add standard category to tests
 
 * Update README about Bulgarian translation
 
 
 = 0.5.2 =
+
 Fix fatal error incompatibility with wordpress-seo plugin
 
 * Adding Bulgarian translation
 
 
 = 0.5.1 =
+
 Add tags, improve formulas editor and docs
 
 * Prefix screenhots by zeros
@@ -368,6 +393,7 @@ Add tags, improve formulas editor and docs
 
 
 = 0.5 =
+
 Localization and quick fill
 
 * Localize to six languages with help of [Transifiex](https://www.transifex.com/projects/p/wp-testing/)
@@ -378,6 +404,7 @@ Localization and quick fill
 
 
 = 0.4.2 =
+
 Fix pages disapperance and form formatting
 
 * Fix pages disapperance
@@ -385,12 +412,14 @@ Fix pages disapperance and form formatting
 
 
 = 0.4.1 =
+
 Fix tests preview mode
 
 * Not changing main WP query when in preview
 
 
 = 0.4 =
+
 Display tests in blog everywhere same as posts
 
 * Display tests on homepage, in categories and other places just like posts
@@ -400,6 +429,7 @@ Display tests in blog everywhere same as posts
 * Minimize possibility of "Max post vars" warning by minizing the number of hidden inputs
 
 = 0.3 =
+
 Test plugin functionality in 37 combinations of WP and PHP and fix found problems
 
 * Test under WordPress from 3.2 to latest 4.0 and PHP from 5.2 to 5.5
@@ -427,26 +457,32 @@ Non-latest WP versions fixes (programmer's language):
 
 
 = 0.2.5 =
+
 Fix test creation (empty scale sum broken)
 
 
 = 0.2.4 =
+
 Correctly uninstall plugin
 
 
 = 0.2.3 =
+
 Fix activation on PHP below 5.4
 
 
 = 0.2.2 =
+
 Update description to correct English version
 
 
 = 0.2.1 =
+
 Fix PHP 5.2 parse error (not affects latest PHP versions)
 
 
 = 0.2 =
+
 Connecting scales scores with results through formulas.
 
 * Formulas parser undertands variables and comparision operators like "less", "more", "same", "not same", "and", "or"
@@ -457,6 +493,7 @@ Connecting scales scores with results through formulas.
 
 
 = 0.1.4 =
+
 Test passing error fixed
 
 * Manual relashionships naming
@@ -464,6 +501,7 @@ Test passing error fixed
 
 
 = 0.1.3 =
+
 Another plugin activation problems fixed
 
 * Permissions on migrations directory
@@ -471,10 +509,12 @@ Another plugin activation problems fixed
 
 
 = 0.1.2 =
+
 Bump stable tag to apply previous hotfix on wordpress plugins
 
 
 = 0.1.1 =
+
 Plugin activation hotfix
 
 * In initial release migrations dir taken from wordpress dir rather than be hardcoded.
@@ -483,6 +523,7 @@ Locally all was ok as always, but not on your wordpresses :(
 
 
 = 0.1 =
+
 Initial release
 
 * Add shortcode for tests lists: wptlist
@@ -499,6 +540,9 @@ Initial release
 
 
 == Upgrade Notice ==
+
+= 0.13.2 =
+Now you don't have to deactivate and activate plugin after every update
 
 = 0.7.1 =
 Fix bad external library version

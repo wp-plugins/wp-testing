@@ -5,7 +5,7 @@ Donate link: https://goo.gl/igulor
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 4.2.2  
-Stable tag: 0.14.1  
+Stable tag: 0.14.2  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -104,6 +104,14 @@ PS: **If something broken or doesn't work**, pls create new topic in ["Support" 
 23. On last page counter not shown and button changes back to "Get Test Results"
 
 == Changelog ==
+
+
+= 0.14.2 =
+
+Prepare plugin to styling addon
+
+* Allow dependencies in plugin's style
+* Fix links to tests in respondents results
 
 
 = 0.14.1 =

@@ -269,23 +269,23 @@
     },
     {
         "name": "yahnis-elsts/plugin-update-checker",
-        "version": "v2.0",
-        "version_normalized": "2.0.0.0",
+        "version": "v2.1",
+        "version_normalized": "2.1.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/YahnisElsts/plugin-update-checker.git",
-            "reference": "323e80fa1991fb84c37f7c54bef2348b48c72bb6"
+            "reference": "fd5feddfef20e6c9f37e1f3c41872b50041072e3"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/YahnisElsts/plugin-update-checker/zipball/323e80fa1991fb84c37f7c54bef2348b48c72bb6",
-            "reference": "323e80fa1991fb84c37f7c54bef2348b48c72bb6",
+            "url": "https://api.github.com/repos/YahnisElsts/plugin-update-checker/zipball/fd5feddfef20e6c9f37e1f3c41872b50041072e3",
+            "reference": "fd5feddfef20e6c9f37e1f3c41872b50041072e3",
             "shasum": ""
         },
         "require": {
             "php": ">=5.2.0"
         },
-        "time": "2015-02-10 10:00:06",
+        "time": "2015-06-26 13:37:25",
         "type": "library",
         "installation-source": "dist",
         "notification-url": "https://packagist.org/downloads/",

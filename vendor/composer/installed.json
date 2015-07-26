@@ -162,40 +162,6 @@
         "installation-source": "source"
     },
     {
-        "name": "xrstf/composer-php52",
-        "version": "v1.0.17",
-        "version_normalized": "1.0.17.0",
-        "source": {
-            "type": "hg",
-            "url": "https://bitbucket.org/xrstf/composer-php52",
-            "reference": "70b853668d6c3f97b63dafcfaeebb622bf08fd30"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://bitbucket.org/xrstf/composer-php52/get/70b853668d6c3f97b63dafcfaeebb622bf08fd30.zip",
-            "reference": "70b853668d6c3f97b63dafcfaeebb622bf08fd30",
-            "shasum": ""
-        },
-        "time": "2015-02-01 14:28:15",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-default": "1.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "xrstf\\Composer52": "lib/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "homepage": "http://www.xrstf.de/"
-    },
-    {
         "name": "ruckusing/ruckusing-migrations",
         "version": "1.0.3",
         "version_normalized": "1.0.3.0",
@@ -307,5 +273,31 @@
             "plugin updates",
             "wordpress"
         ]
+    },
+    {
+        "name": "xrstf/composer-php52",
+        "version": "v1.99",
+        "version_normalized": "1.99.0.0",
+        "dist": {
+            "type": "zip",
+            "url": "https://bitbucket.org/garex/composer-php52/get/respect-autoloader-suffix.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "xrstf\\Composer52": "lib/"
+            }
+        },
+        "scripts": {
+            "post-install-cmd": [
+                "xrstf\\Composer52\\Generator::onPostInstallCmd"
+            ],
+            "post-update-cmd": [
+                "xrstf\\Composer52\\Generator::onPostInstallCmd"
+            ]
+        }
     }
 ]

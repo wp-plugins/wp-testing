@@ -5,7 +5,7 @@ Donate link: https://goo.gl/igulor
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
 Tested up to: 4.2.3  
-Stable tag: 0.15.1  
+Stable tag: 0.15.2  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -145,6 +145,17 @@ Most giant are **[feature](https://wordpress.org/tags/wp-testing-feature)**, **[
 == Changelog ==
 
 
+= 0.15.2 =
+
+Maintenance: Document "Plugin update checker" library role
+
+Wp-testing plugin uses external library named "Plugin Update Checker" for the purposes of updating paid addons only. These addons are hosted at http://apsiholog.ru/addons/. Updates happens only in admin area and only when addon registered. So it's not touched you if you dont' have any paid addon installed. This external library is not send anything to update server other than the current version of paid addon, that needs to be updated when it's time will comes.
+
+Upgrade notice:
+
+* You don't need to update on this version as it's here only for legal purposes.
+
+
 = 0.15.1 =
 
 Maintenance: FAQ, screenshots, latest WP compatibility
@@ -238,6 +249,7 @@ Internal improvements:
 
 * Speed-up build, which will allow to test new features faster
 * Rename passing columns in WP style, which is just perfectionism, but who knows
+
 
 = 0.12.1 =
 

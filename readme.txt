@@ -4,8 +4,8 @@ Contributors: ustimenko, it2core, champ1on, rezaamaleki, cristipere, osfans, chr
 Donate link: https://goo.gl/igulor  
 Tags: psychological, testing, test, quiz  
 Requires at least: 3.2  
-Tested up to: 4.2.3  
-Stable tag: 0.15.2  
+Tested up to: 4.2.4  
+Stable tag: 0.16  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -27,7 +27,7 @@ Test answers, scales, results and categories are edited through **wordpress stan
 
 **Answers**  can be global to test — when all questions have the same answers. For example: "Yes", "No", "I'm not sure". Or you can use **individual answers** to add individual answer to each question. And the third option is to use global answers, but individualize their titles: not just "Yes", but "Yes, I do so and so", when you use it for the particular question. Some tests have this pattern.
 
-As to **formulas** you can be sure — we have simple formula editor, that has buttons for each scale (with sum of it's scores), question/answer button and allowed comparisions/operators: `<`, `>`, `<=`, `=>`, `<>`, `AND`, `OR`, `( .. )`, `NOT ( .. )`, `+`, `-`, `*`,  `/`. 
+As to **formulas** you can be sure — we have simple formula editor, that has buttons for each scale (with sum of it's scores), question/answer button and allowed comparisions/operators: `<`, `>`, `<=`, `=>`, `<>`, `AND`, `OR`, `( .. )`, `NOT ( .. )`, `+`, `-`, `*`,  `/`.
 
 Tests are treated for WordPress like posts — they appear on home page and inside their categories pages if selected. But if you don't want your test to appear on home page you can uncheck **"Publish on the home page"** in "Publish" metabox and this particular test will not appear on homepage.
 
@@ -109,11 +109,11 @@ Most giant are **[feature](https://wordpress.org/tags/wp-testing-feature)**, **[
 
 **Feature**: [alert required questions](https://wordpress.org/tags/wp-testing-alert-required-questions), [answer type number](https://wordpress.org/tags/wp-testing-answer-type-number), [chained steps strategy](https://wordpress.org/tags/wp-testing-chained-steps-strategy), [conflict plugin](https://wordpress.org/tags/wp-testing-conflict-plugin), [custom template](https://wordpress.org/tags/wp-testing-custom-template), **[diagram type](https://wordpress.org/tags/wp-testing-diagram-type)**, **[email results](https://wordpress.org/tags/wp-testing-email-results)**, **[export results](https://wordpress.org/tags/wp-testing-export-results)**, [for users](https://wordpress.org/tags/wp-testing-for-users), [formula absolute](https://wordpress.org/tags/wp-testing-formula-absolute), [formula division](https://wordpress.org/tags/wp-testing-formula-division), [formula not](https://wordpress.org/tags/wp-testing-formula-not), **[hide scales](https://wordpress.org/tags/wp-testing-hide-scales)**, [hide test description](https://wordpress.org/tags/wp-testing-hide-test-description), [individual answers](https://wordpress.org/tags/wp-testing-individual-answers), [low memory](https://wordpress.org/tags/wp-testing-low-memory), [multiline questions](https://wordpress.org/tags/wp-testing-multiline-questions), [multiple answers](https://wordpress.org/tags/wp-testing-multiple-answers), [negative scales sum](https://wordpress.org/tags/wp-testing-negative-scales-sum), [paid results](https://wordpress.org/tags/wp-testing-paid-results), [paid test](https://wordpress.org/tags/wp-testing-paid-test), [passing counter](https://wordpress.org/tags/wp-testing-passing-counter), [pdf results](https://wordpress.org/tags/wp-testing-pdf-results), [postprocess results](https://wordpress.org/tags/wp-testing-postprocess-results), [public scale names](https://wordpress.org/tags/wp-testing-public-scale-names), [publish homepage](https://wordpress.org/tags/wp-testing-publish-homepage), [question per page](https://wordpress.org/tags/wp-testing-question-per-page), [random question answer order](https://wordpress.org/tags/wp-testing-random-question-answer-order), [redirect](https://wordpress.org/tags/wp-testing-redirect), [reorder questions](https://wordpress.org/tags/wp-testing-reorder-questions), [reorder scales results answers](https://wordpress.org/tags/wp-testing-reorder-scales-results-answers), **[respondents results](https://wordpress.org/tags/wp-testing-respondents-results)**, **[results page](https://wordpress.org/tags/wp-testing-results-page)**, [rich scales results](https://wordpress.org/tags/wp-testing-rich-scales-results), [scale bar orientation](https://wordpress.org/tags/wp-testing-scale-bar-orientation), **[scores decimal](https://wordpress.org/tags/wp-testing-scores-decimal)**, [sections](https://wordpress.org/tags/wp-testing-sections), [share results](https://wordpress.org/tags/wp-testing-share-results), **[shortcode](https://wordpress.org/tags/wp-testing-shortcode)**, [sort scales](https://wordpress.org/tags/wp-testing-sort-scales), **[styling](https://wordpress.org/tags/wp-testing-styling)**, [test page answers](https://wordpress.org/tags/wp-testing-test-page-answers), [use post category](https://wordpress.org/tags/wp-testing-use-post-category), [user to results](https://wordpress.org/tags/wp-testing-user-to-results), [variable question answer](https://wordpress.org/tags/wp-testing-variable-question-answer).
 
-**Bug**: [answers disappears](https://wordpress.org/tags/wp-testing-answers-disappears), [apostrophe](https://wordpress.org/tags/wp-testing-apostrophe), **[conflict plugin](https://wordpress.org/tags/wp-testing-conflict-plugin)**, **[conflict theme](https://wordpress.org/tags/wp-testing-conflict-theme)**, [cpu limit](https://wordpress.org/tags/wp-testing-cpu-limit), **[database collation](https://wordpress.org/tags/wp-testing-database-collation)**, [database engine](https://wordpress.org/tags/wp-testing-database-engine), [database old password format](https://wordpress.org/tags/wp-testing-database-old-password-format), [database prefix case](https://wordpress.org/tags/wp-testing-database-prefix-case), [form multipart](https://wordpress.org/tags/wp-testing-form-multipart), **[migration](https://wordpress.org/tags/wp-testing-migration)**, [minimal score](https://wordpress.org/tags/wp-testing-minimal-score), [missing mysqli](https://wordpress.org/tags/wp-testing-missing-mysqli), [missing tokenizer](https://wordpress.org/tags/wp-testing-missing-tokenizer), [multiple answers](https://wordpress.org/tags/wp-testing-multiple-answers), [page 404](https://wordpress.org/tags/wp-testing-page-404), [php strict](https://wordpress.org/tags/wp-testing-php-strict), [test description limited](https://wordpress.org/tags/wp-testing-test-description-limited), [uninstall](https://wordpress.org/tags/wp-testing-uninstall), [value names required](https://wordpress.org/tags/wp-testing-value-names-required), [virus](https://wordpress.org/tags/wp-testing-virus).
+**Bug**: [answers disappears](https://wordpress.org/tags/wp-testing-answers-disappears), [apostrophe](https://wordpress.org/tags/wp-testing-apostrophe), **[conflict plugin](https://wordpress.org/tags/wp-testing-conflict-plugin)**, **[conflict theme](https://wordpress.org/tags/wp-testing-conflict-theme)**, [cpu limit](https://wordpress.org/tags/wp-testing-cpu-limit), **[database collation](https://wordpress.org/tags/wp-testing-database-collation)**, [database engine](https://wordpress.org/tags/wp-testing-database-engine), [database old password format](https://wordpress.org/tags/wp-testing-database-old-password-format), [database prefix case](https://wordpress.org/tags/wp-testing-database-prefix-case), [form multipart](https://wordpress.org/tags/wp-testing-form-multipart), **[migration](https://wordpress.org/tags/wp-testing-migration)**, [minimal score](https://wordpress.org/tags/wp-testing-minimal-score), [missing mysqli](https://wordpress.org/tags/wp-testing-missing-mysqli), [missing tokenizer](https://wordpress.org/tags/wp-testing-missing-tokenizer), [multiple answers](https://wordpress.org/tags/wp-testing-multiple-answers), [multisite](https://wordpress.org/tags/wp-testing-multisite), [page 404](https://wordpress.org/tags/wp-testing-page-404), [php strict](https://wordpress.org/tags/wp-testing-php-strict), [test description limited](https://wordpress.org/tags/wp-testing-test-description-limited), [uninstall](https://wordpress.org/tags/wp-testing-uninstall), [value names required](https://wordpress.org/tags/wp-testing-value-names-required), [virus](https://wordpress.org/tags/wp-testing-virus).
 
-**Support**: [conflict plugin](https://wordpress.org/tags/wp-testing-conflict-plugin), **[conflict theme](https://wordpress.org/tags/wp-testing-conflict-theme)**, [demo](https://wordpress.org/tags/wp-testing-demo), [formula misprint](https://wordpress.org/tags/wp-testing-formula-misprint), [individual answers](https://wordpress.org/tags/wp-testing-individual-answers), [more example tests for free](https://wordpress.org/tags/wp-testing-more-example-tests-for-free), [reorder scales results answers](https://wordpress.org/tags/wp-testing-reorder-scales-results-answers).
+**Support**: [conflict plugin](https://wordpress.org/tags/wp-testing-conflict-plugin), **[conflict theme](https://wordpress.org/tags/wp-testing-conflict-theme)**, [database config](https://wordpress.org/tags/wp-testing-database-config), [demo](https://wordpress.org/tags/wp-testing-demo), **[formula misprint](https://wordpress.org/tags/wp-testing-formula-misprint)**, [individual answers](https://wordpress.org/tags/wp-testing-individual-answers), [missing mysqli](https://wordpress.org/tags/wp-testing-missing-mysqli), [more example tests for free](https://wordpress.org/tags/wp-testing-more-example-tests-for-free), [reorder scales results answers](https://wordpress.org/tags/wp-testing-reorder-scales-results-answers), [results page](https://wordpress.org/tags/wp-testing-results-page), [styling](https://wordpress.org/tags/wp-testing-styling), [translation](https://wordpress.org/tags/wp-testing-translation).
 
-**Other**: [conflict plugin](https://wordpress.org/tags/wp-testing-conflict-plugin), **[conflict theme](https://wordpress.org/tags/wp-testing-conflict-theme)**, [demo](https://wordpress.org/tags/wp-testing-demo), [formula misprint](https://wordpress.org/tags/wp-testing-formula-misprint), [individual answers](https://wordpress.org/tags/wp-testing-individual-answers), [more example tests for free](https://wordpress.org/tags/wp-testing-more-example-tests-for-free), [reorder scales results answers](https://wordpress.org/tags/wp-testing-reorder-scales-results-answers).
+**Other**: [addon](https://wordpress.org/tags/wp-testing-addon), [changelog](https://wordpress.org/tags/wp-testing-changelog), [fix me for free](https://wordpress.org/tags/wp-testing-fix-me-for-free), [reward](https://wordpress.org/tags/wp-testing-reward), **[translation](https://wordpress.org/tags/wp-testing-translation)**.
 
 
 == Screenshots ==
@@ -143,6 +143,27 @@ Most giant are **[feature](https://wordpress.org/tags/wp-testing-feature)**, **[
 23. On last page counter not shown and button changes back to "Get Test Results"
 
 == Changelog ==
+
+
+= 0.16 =
+
+Decimalize scores
+
+Before score value could be from -128 to 127, which is not too usable for tests which have decimal scores. Now it's changed and possible values are from -999.999 to 999.999. So now you can use scores like 0.005 or else. These changes are applied to scales's labels too.
+Decimal-style values are shown only when it's needed. So if you have scale which values are 15 out of 15, it will be shown as "15 out of 15". But when values will be decimal — it will  be shown as decimal: "12.034 out of 24.3".
+
+* WordPress compatibility updated to 4.2.4 and prepared to 4.3.
+* Use [semantic headers](https://make.wordpress.org/core/2015/07/31/headings-in-admin-screens-change-in-wordpress-4-3/) in respondents results as of WP 4.3.
+
+Fixes:
+
+* Respect results orders. Helpful when you have many results and their output order is important at results page.
+* Fix support tags generation.
+
+Internal improvements:
+
+* Step strategy know if answered questions are possible now.
+* Step strategy can show step's description as a short description before questions.
 
 
 = 0.15.2 =
@@ -238,12 +259,12 @@ Fix result permalinks with front prefixes
 
 = 0.13 =
 
-Respondent passings for user and admin with improved usability   
+Respondent passings for user and admin with improved usability
 
 * Respondent can view own passings in wordpress admin area
 * Significantly improved respondents passings: search/sort/toggle by columns and setup items per page
 * Add Persian (Iran) locale
-* Fix test page in Internet Explorers before 9.0 
+* Fix test page in Internet Explorers before 9.0
 
 Internal improvements:
 
@@ -294,7 +315,7 @@ Fix strict settings catchable error in steps
 
 Upgrade notice:
 
-* You should upgrade to this version only if nothing works on test page and your PHP error settings are strict 
+* You should upgrade to this version only if nothing works on test page and your PHP error settings are strict
 
 
 = 0.11.2 =
@@ -331,7 +352,7 @@ Fix incompatibility with themes/plugins that changes post form attributes
 Upgrade notice:
 
 * You shouldn't upgrade to this version if all is working
-* Only if it was working, then you install something (another plugin/theme) and all was broken 
+* Only if it was working, then you install something (another plugin/theme) and all was broken
 
 
 = 0.10 =
@@ -356,7 +377,7 @@ Update locales, minor fixes and cleanup download file
 
 = 0.9.4 =
 
-Add more math operators, native FR lang and improve scales' chart #2  
+Add more math operators, native FR lang and improve scales' chart #2
 
 * Avoid rotating text labels when we have too many scales
 * Show mini-annotations like abbrevirations always near data values

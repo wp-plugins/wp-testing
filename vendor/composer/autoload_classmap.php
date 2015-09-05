@@ -330,6 +330,8 @@ return array(
     'WpTesting_Widget_PassingTableColumn' => $baseDir . '/src/Widget/PassingTableColumn.php',
     'WpTesting_Widget_PassingTable_Admin' => $baseDir . '/src/Widget/PassingTable/Admin.php',
     'WpTesting_Widget_PassingTable_User' => $baseDir . '/src/Widget/PassingTable/User.php',
+    'WpTesting_Widget_PlaceholderTemplate' => $baseDir . '/src/Widget/PlaceholderTemplate.php',
+    'WpTesting_Widget_PlaceholderTemplate_Collection' => $baseDir . '/src/Widget/PlaceholderTemplate/Collection.php',
     'WpTesting_WordPressFacade' => $baseDir . '/src/WordPressFacade.php',
     'fActiveRecord' => $vendorDir . '/flourish/flourish/fActiveRecord.php',
     'fAuthorization' => $vendorDir . '/flourish/flourish/fAuthorization.php',

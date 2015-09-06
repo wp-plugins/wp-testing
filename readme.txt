@@ -5,7 +5,7 @@ Donate link: https://goo.gl/igulor
 Tags: psychological, testing, test, quiz
 Requires at least: 3.2
 Tested up to: 4.3
-Stable tag: 0.16.3
+Stable tag: 0.16.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -143,6 +143,11 @@ Most giant are **[feature](https://wordpress.org/tags/wp-testing-feature)**, **[
 23. On last page counter not shown and button changes back to "Get Test Results"
 
 == Changelog ==
+
+
+= 0.16.4 =
+
+Fix issue with individual answers was not added if results was attached
 
 
 = 0.16.3 =

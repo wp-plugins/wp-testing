@@ -234,32 +234,6 @@
         "installation-source": "dist"
     },
     {
-        "name": "xrstf/composer-php52",
-        "version": "v1.99",
-        "version_normalized": "1.99.0.0",
-        "dist": {
-            "type": "zip",
-            "url": "https://bitbucket.org/garex/composer-php52/get/respect-autoloader-suffix.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "xrstf\\Composer52": "lib/"
-            }
-        },
-        "scripts": {
-            "post-install-cmd": [
-                "xrstf\\Composer52\\Generator::onPostInstallCmd"
-            ],
-            "post-update-cmd": [
-                "xrstf\\Composer52\\Generator::onPostInstallCmd"
-            ]
-        }
-    },
-    {
         "name": "yahnis-elsts/plugin-update-checker",
         "version": "v2.2",
         "version_normalized": "2.2.0.0",
@@ -299,5 +273,31 @@
             "plugin updates",
             "wordpress"
         ]
+    },
+    {
+        "name": "xrstf/composer-php52",
+        "version": "v1.100",
+        "version_normalized": "1.100.0.0",
+        "dist": {
+            "type": "zip",
+            "url": "https://bitbucket.org/garex/composer-php52/get/upgrade-getAutoloadRealFile-signature.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "xrstf\\Composer52": "lib/"
+            }
+        },
+        "scripts": {
+            "post-install-cmd": [
+                "xrstf\\Composer52\\Generator::onPostInstallCmd"
+            ],
+            "post-update-cmd": [
+                "xrstf\\Composer52\\Generator::onPostInstallCmd"
+            ]
+        }
     }
 ]

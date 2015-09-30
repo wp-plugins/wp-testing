@@ -304,6 +304,7 @@ return array(
     'WpTesting_Doer_WordPressEntitiesRegistrator' => $baseDir . '/src/Doer/WordPressEntitiesRegistrator.php',
     'WpTesting_Facade' => $baseDir . '/src/Facade.php',
     'WpTesting_Facade_IORM' => $baseDir . '/src/Facade/IORM.php',
+    'WpTesting_Facade_ITestPasser' => $baseDir . '/src/Facade/ITestPasser.php',
     'WpTesting_Model_AbstractModel' => $baseDir . '/src/Model/AbstractModel.php',
     'WpTesting_Model_AbstractParent' => $baseDir . '/src/Model/AbstractParent.php',
     'WpTesting_Model_AbstractTerm' => $baseDir . '/src/Model/AbstractTerm.php',

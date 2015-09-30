@@ -5,7 +5,7 @@ Donate link: https://goo.gl/igulor
 Tags: psychological, testing, test, quiz
 Requires at least: 3.2
 Tested up to: 4.3.1
-Stable tag: 0.17
+Stable tag: 0.17.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -152,6 +152,25 @@ Most giant are **[feature](https://wordpress.org/tags/wp-testing-feature)**, **[
 23. On last page counter not shown and button changes back to "Get Test Results"
 
 == Changelog ==
+
+
+= 0.17.1 =
+
+Fix incorrect content processing
+
+Symptoms:
+
+* The questions on the first page of the test dissapear
+* Shortcodes don't work on result page
+
+Upgrade notice:
+
+* If you use version 0.17 upgrade to this version!
+* Please check first pages of all tests, that use shortcodes in them
+* Also please check  result pages, which could have shortcodes inside.
+It's ok just  to open at least one existing page. Shortcodes could be in results or scales descriptions.
+
+I apologize for the inconvenience.
 
 
 = 0.17 =
@@ -733,6 +752,9 @@ Initial release
 
 
 == Upgrade Notice ==
+
+= 0.17.1 =
+Fix incorrect content processing. You must upgrade if you are using 0.17 currently
 
 = 0.13.2 =
 Now you don't have to deactivate and activate plugin after every update
